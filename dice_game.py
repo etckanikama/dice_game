@@ -1,6 +1,6 @@
 import dice
 
-num = input('4,6,8,12,20のどれで勝負しますか？：')
+num = input('4面体,6面体,8面体,12面体,20面体のサイコロがあります。これらのどれを選びますか？：')
 num = int(num)
 my_dice = dice.Dice(num)
 cpu_dice = dice.Dice(num)
